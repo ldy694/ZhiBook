@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0184D6D6210602BF007772E0 /* MyProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0184D6D5210602BF007772E0 /* MyProtocol.swift */; };
 		01D8D1F420FECD38000EC18A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D8D1F320FECD38000EC18A /* AppDelegate.swift */; };
 		01D8D1F620FECD38000EC18A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D8D1F520FECD38000EC18A /* ViewController.swift */; };
 		01D8D1F920FECD38000EC18A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01D8D1F720FECD38000EC18A /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0184D6D5210602BF007772E0 /* MyProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProtocol.swift; sourceTree = "<group>"; };
 		01D8D1F020FECD38000EC18A /* ZhiBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZhiBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01D8D1F320FECD38000EC18A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		01D8D1F520FECD38000EC18A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 			children = (
 				01D8D1F320FECD38000EC18A /* AppDelegate.swift */,
 				01D8D1F520FECD38000EC18A /* ViewController.swift */,
+				0184D6D5210602BF007772E0 /* MyProtocol.swift */,
 				01D8D1F720FECD38000EC18A /* Main.storyboard */,
 				01D8D1FD20FECD39000EC18A /* Assets.xcassets */,
 				01D8D1FF20FECD39000EC18A /* LaunchScreen.storyboard */,
@@ -187,6 +190,7 @@
 				01D8D1F620FECD38000EC18A /* ViewController.swift in Sources */,
 				01D8D1F420FECD38000EC18A /* AppDelegate.swift in Sources */,
 				01D8D1FC20FECD38000EC18A /* ZhiBook.xcdatamodeld in Sources */,
+				0184D6D6210602BF007772E0 /* MyProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,6 +335,7 @@
 			baseConfigurationReference = 79397833AF297E95E11A32D8 /* Pods-ZhiBook.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = B77JV5ARB8;
 				INFOPLIST_FILE = ZhiBook/Info.plist;
@@ -353,8 +358,9 @@
 			baseConfigurationReference = 846964E15676367BCE8F14D4 /* Pods-ZhiBook.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = B77JV5ARB8;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = ZhiBook/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -363,8 +369,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.xingdonglin.ractest.ZhiBook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "d8605b6c-5273-4355-8c5e-b0eef3f1029a";
-				PROVISIONING_PROFILE_SPECIFIER = allTest;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
